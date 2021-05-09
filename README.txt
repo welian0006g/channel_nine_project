@@ -29,7 +29,8 @@ Under the project root directory again run "sudo node index.js". Note that runni
 superuser is recommended because the requirements implicitly said that this server should be running in port 80.
 
 Otherwise could simple run "npm start" under the project root could start the server.
-For testing scripts simply run "npm test" under the project root.
+For testing scripts simply run "npm test" under the project root. Note that you might need to install Mocha globally
+first in order to run this testing command. Please run npm install mocha -g first if you haven't done so.
 
 5.Deployment
 This server is also deployed in AWS EC2.
