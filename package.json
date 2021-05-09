@@ -1,7 +1,7 @@
 {
   "name": "nine_coding_exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node server capable of filtering payloads.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
