@@ -1,0 +1,29 @@
+1.What did you think of the test?
+A: I think the test isn't difficult in some sense but the developer has to have experience
+across deployment,testing,coding and documenting in order to produce those artifacts.
+
+2.What was the biggest challenge?
+A: No single "big" challenge. Perhaps one small thing that has blocked me for a while is 
+that the server has to run at root path AND at port 80. I firstly deployed at root but with
+a different port number in AWS but then the channel nine page wouldn't allow me to submit the URL.
+After some small adjustment I was able to use root together with port 80 in my AWS EC2 instance.
+
+3.How long did it take to complete?
+A: I have spent a few hours wrting functional code, a few hours writing tests and doing some QA myself, 
+one or two hours deploying. I have also spent some time in writing documentation. Plus small amount of
+time pushing my project to Github.
+   The total amount of time I have spent in this project is estimated to be somewhere between 14 hours ~ 16 hours.
+
+4.How did I choose which language/technology to use?
+A: I use Node.js + express for my main server implementation. The reason I choose Node is that I think Node is a great 
+technology that allows Javascript developer to build fast, scalable web-based applications. Node.js is almost the 
+de-facto choice for backend Javascript developer. I choose Express because this framework is relatively mature and 
+simple, it allows me to build a node server and implement its features in a fast and simple way. 
+   Other technologies/packages I have used in this projects are:
+   Mocha/Chai - Allow me to write unit tests for my server.
+   Supertest - Allow me to write integration test to simulate server request and response.
+   Morgan - Allow my server to do logging in different ways.
+   Lodash - JS library that provides utility functions for common programming tasks.
+   ESLint - Linting tool that provides hints for any problematic patterns in Javascript code.
+
+   Most of the above tools are standard choices for a backend Node.js developer.
